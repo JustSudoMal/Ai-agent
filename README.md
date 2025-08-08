@@ -34,6 +34,12 @@ pip install -r requirements.txt
 
     Update the model_path in __main__ at the bottom of the Python script to match.
 
+
+ ## how to install Minstral 
+ 
+ git clone https://huggingface.co/mistralai/Mistral-7B-v0.1
+
+
  Background Image
 
 On first launch, a file picker lets you select any image for the chat window background. Optional but makes the UI ✨shine✨.
