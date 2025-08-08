@@ -22,7 +22,6 @@ A sleek, customizable desktop chat interface for local LLMs using `llama-cpp-pyt
 
 Install all dependencies:
 
-bash
 pip install -r requirements.txt
  Model Setup
 
@@ -33,13 +32,13 @@ pip install -r requirements.txt
     /home/mal/Downloads/capybarahermes-2.5-mistral-7b.Q2_K.gguf
 
     Update the model_path in __main__ at the bottom of the Python script to match.
-
+you can download Most models on huggingface.co and inject them into the model path
 
 
 
  Background Image
 
-On first launch, a file picker lets you select any image for the chat window background. Optional but makes the UI ✨shine✨.
+On first launch, a file picker lets you select any image for the chat window background. Optional but makes the UI shine.
  Usage
 
 python AI-Agent.py
@@ -56,7 +55,7 @@ python AI-Agent.py
 
     Edit window dimensions, fonts, or colors in the ChatWindow class.
 
-    Add logging or output saving if desired.
+
 
  Example Persona
 
