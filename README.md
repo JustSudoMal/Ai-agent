@@ -13,7 +13,7 @@ A sleek, customizable desktop chat interface for local LLMs using `llama-cpp-pyt
 
 
 
-## 📦 Requirements
+##  Requirements
 
 - Python 3.8+
 - [llama-cpp-python](https://pypi.org/project/llama-cpp-python/)
@@ -22,9 +22,9 @@ A sleek, customizable desktop chat interface for local LLMs using `llama-cpp-pyt
 
 Install all dependencies:
 
-```bash
+bash
 pip install -r requirements.txt
-📂 Model Setup
+ Model Setup
 
     Download a compatible .gguf model (e.g., Capybara Hermes, Mistral, etc.)
 
@@ -34,12 +34,12 @@ pip install -r requirements.txt
 
     Update the model_path in __main__ at the bottom of the Python script to match.
 
-🖼️ Background Image
+ Background Image
 
 On first launch, a file picker lets you select any image for the chat window background. Optional but makes the UI ✨shine✨.
-🧑‍💻 Usage
+ Usage
 
-python your_script.py
+python Hawk.py
 
     Type into the input field and hit Enter or click Send
 
@@ -47,7 +47,7 @@ python your_script.py
 
     AI persona is injected via the prompt system section
 
-🛠️ Customization
+ Customization
 
     Change the AI’s persona in the __main__ section.
 
@@ -55,7 +55,7 @@ python your_script.py
 
     Add logging or output saving if desired.
 
-🤓 Example Persona
+ Example Persona
 
 persona = "Hawk, a clever comedian who is really good at jokes"
 
