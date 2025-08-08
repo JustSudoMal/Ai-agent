@@ -5,11 +5,11 @@ A sleek, customizable desktop chat interface for local LLMs using `llama-cpp-pyt
 
 
 
-- 🧠 Local LLM chat powered by [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
-- 🎨 Custom background image support (any `.png`, `.jpg`, `.gif`, etc.)
-- 💬 Clean, styled chat interface with color-coded messages
-- 🤖 Persona injection (e.g. “Hawk, a clever comedian…”)
-- 🧵 Threaded model inference with adjustable token limits
+-  Local LLM chat powered by [llama-cpp-python](https://github.com/abetlen/llama-cpp-python)
+-  Custom background image support (any `.png`, `.jpg`, `.gif`, etc.)
+-  Clean, styled chat interface with color-coded messages
+-  Persona injection (e.g. “Hawk, a clever comedian…”)
+-  Threaded model inference with adjustable token limits
 
 
 
@@ -24,3 +24,39 @@ Install all dependencies:
 
 ```bash
 pip install -r requirements.txt
+📂 Model Setup
+
+    Download a compatible .gguf model (e.g., Capybara Hermes, Mistral, etc.)
+
+    Save the model to a path like:
+
+    /home/mal/Downloads/capybarahermes-2.5-mistral-7b.Q2_K.gguf
+
+    Update the model_path in __main__ at the bottom of the Python script to match.
+
+🖼️ Background Image
+
+On first launch, a file picker lets you select any image for the chat window background. Optional but makes the UI ✨shine✨.
+🧑‍💻 Usage
+
+python your_script.py
+
+    Type into the input field and hit Enter or click Send
+
+    All chat history is styled and scrollable
+
+    AI persona is injected via the prompt system section
+
+🛠️ Customization
+
+    Change the AI’s persona in the __main__ section.
+
+    Edit window dimensions, fonts, or colors in the ChatWindow class.
+
+    Add logging or output saving if desired.
+
+🤓 Example Persona
+
+persona = "Hawk, a clever comedian who is really good at jokes"
+
+Make it wild, informative, serious, whatever suits your use-case.
