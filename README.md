@@ -39,7 +39,7 @@ pip install -r requirements.txt
 On first launch, a file picker lets you select any image for the chat window background. Optional but makes the UI ✨shine✨.
  Usage
 
-python Hawk.py
+python AI-Agent.py
 
     Type into the input field and hit Enter or click Send
 
